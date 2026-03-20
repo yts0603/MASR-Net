@@ -2,7 +2,7 @@
 
 Official repository for our paper submitted to The Visual Computer.
 ## Overview
-![Model Architecture](Figures/Figure_2.tif)
+![Model Architecture](figure/overview.png)
 *Figure 1: Overall architecture of MASR-Net.*
 
 ## Environment Setup
