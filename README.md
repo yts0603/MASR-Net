@@ -1,4 +1,4 @@
-#MASR-Net: Synergistic Mamba and Self-Attention for High-Fidelity Infant Brain MRI Super-Resolution
+# MASR-Net: Synergistic Mamba and Self-Attention for High-Fidelity Infant Brain MRI Super-Resolution
 
 Official repository for our paper submitted to The Visual Computer.
 ## Overview
@@ -16,27 +16,24 @@ For installation of the project dependencies, please run:
 ```bash
 pip install -r Requirements.txt
 ```
-
-##Preprocessing
+## Preprocessing
 Preprocessing scripts are located in the pre/ folder. Run them in order to prepare your dataset.
 
-##Training
+## Training
 Before training, edit the cfg dictionary in train_MASR.py to set your data paths and hyperparameters. Then run:
 ```bash
 python train_MASR.py
 ```
-
-##Test
+## Test
 Edit the test_cfg dictionary in test_all.py to specify the test data and model checkpoint. Then run:
 ```bash
 python test_all.py
 ```
-
-##Data Availability
+## Data Availability
 The neonatal brain MRI dataset used in this study is not publicly available due to ethical and privacy regulations.
 For reproducibility, you may use public alternatives and follow the preprocessing pipeline above.
 
-##Results
+## Results
 Our MASR-Net achieves state-of-the-art performance on our neonatal brain MRI dataset (0-2 years old):
 Peak Signal-to-Noise Ratio (PSNR): 34.136 dB
 Structural Similarity Index (SSIM): 0.978
