@@ -37,4 +37,4 @@ For reproducibility, you may use public alternatives and follow the preprocessin
 Our MASR-Net achieves state-of-the-art performance on our neonatal brain MRI dataset (0-2 years old):
 - Peak Signal-to-Noise Ratio (PSNR): 34.136 dB
 - Structural Similarity Index (SSIM): 0.978
-- Mean Squared Error (MSE): 0.4×10?3
+- Mean Squared Error (MSE): 0.4×10⁻³
