@@ -1,6 +1,6 @@
 # MASR-Net: Synergistic Mamba and Self-Attention for High-Fidelity Infant Brain MRI Super-Resolution
 
-Official repository for our paper submitted to The Visual Computer.
+
 ## Overview
 ![Model Architecture](figure/overview.png)
 *Figure 1: Overall architecture of MASR-Net.*
